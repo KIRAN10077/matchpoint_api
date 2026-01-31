@@ -69,6 +69,6 @@ app.use(errorHandler);
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
   console.log(
-    `Blogify server running on port ${PORT}`.green.bold.underline
+    `server running on port ${PORT}`.green.bold.underline
   );
 });
